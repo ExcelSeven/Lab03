@@ -1,0 +1,192 @@
+	* {
+	  box-sizing: border-box;
+	}
+
+	body {
+	  font-family: "Roboto", sans-serif;
+	  margin: 0;
+	  padding: 0;
+	}
+
+	.logo > img {
+	  width: 50px;
+	}
+
+	.logo{
+		text-align: center;
+		align-self: center;
+	}
+
+	h1{
+		text-align: center;
+		align-self: center;	
+		}
+
+	.hamburger{
+		background-color: gray;
+		color: white;
+		padding: 5px 5px;
+		display: flex;
+		flex-direction: row;
+		justify-content: flex-end;
+	}
+
+	.menu{
+		display: none;
+	}
+
+	main{
+		display: flex;
+		flex-direction: column;
+		margin: 5px 50px;	
+	}
+
+	li{
+		padding: 0px 15px;
+	}
+
+	.product{
+		display: flex;
+		flex-direction: column;
+		border: 1px solid gray;
+		width: 100%;
+		text-align: center;
+		margin: 3px;	
+	}
+
+	.social{
+		justify-content: space-around;
+		list-style-type: none;
+		display: flex;
+		flex-direction: row;
+	}
+
+	footer{
+		border-top: 1px solid gray;
+	}
+
+	p{
+		text-align: left;
+		padding: 10px 10px;
+	}
+
+@media (min-width: 600px) and (max-width: 990px) {
+	.logo{
+		float: left;
+		padding: 0% 15%;
+		align-self: center;
+	}
+
+	h1{
+		float: center;
+	}
+
+	.hamburger{
+		background-color: gray;
+		color: white;
+		padding: 5px 5px;
+		display: flex;
+		flex-direction: row;
+		justify-content: flex-end;
+	}
+
+	.menu{
+		display: none;
+	}
+
+	main{
+		display: flex;
+		flex-direction: column;
+		margin: 5px 50px;	
+	}
+
+	li{
+		padding: 0px 15px;
+	}
+
+	.product{
+		display: flex;
+		flex-direction: column;
+		border: 1px solid gray;
+		width: 100%;
+		text-align: center;
+		margin: 3px;	
+	}
+
+	.social{
+		justify-content: space-around;
+		list-style-type: none;
+		display: flex;
+		flex-direction: row;
+	}
+
+	footer{
+		border-top: 1px solid gray;
+	}
+
+	p{
+		text-align: left;
+		padding: 10px 10px;
+	}
+}
+
+@media (min-width: 991px) {
+	.logo{
+		float: left;
+		padding: 0% 20%;
+		align-self: center;
+	}
+
+	h1{
+		float: center;
+	}
+
+	.hamburger{
+		display: none;
+	}
+
+	main{
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;
+		margin: 10px;
+	}
+
+	.menu{
+		display: flex;
+		flex-direction: row;
+		justify-content: flex-end;
+		background-color: gray;
+		list-style-type: none;
+		padding: 15px 15px;
+		color: white;
+	}
+
+	li{
+		padding: 0px 15px;
+	}
+
+	.product{
+		display: flex;
+		flex-direction: column;
+		border: 1px solid gray;
+		width: 30%;
+		text-align: center;
+	}
+
+	.social{
+		justify-content: space-around;
+		list-style-type: none;
+		display: flex;
+		flex-direction: row;
+	}
+
+	footer{
+		border-top: 1px solid gray;
+	}
+
+	p{
+		text-align: left;
+		padding: 0px 10px;
+	}
+}
